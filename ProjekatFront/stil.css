@@ -1,0 +1,74 @@
+.kontejner
+{
+    display: flex;
+    width: 100%;
+    border: solid 1px rgb(92, 46, 46);
+}
+.kontForma,.divIzaberi,.kontejnerPoruci
+{
+    display: flex;
+    flex-direction: column;
+   
+    margin: 1px;
+    width: 250px;
+
+}
+.divDugme
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+}
+.kontStolovi
+{
+    display: flex;
+    width: 100%;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content:space-around;
+   
+}
+.red
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.kontejnerSto,.ZauzetiSto,.SlobodniSto
+{
+    display: flex;
+    flex-grow: 1;
+    margin:20px;
+    width: 50px;
+    height: 50px;
+    border: solid rgb(0, 0, 0) 2px;
+    background-color: #8f5d2c;
+    color: rgb(81, 255, 0);
+}
+.kontejnerPor
+{
+    border: solid rgb(17, 0, 0) 1px;
+    background-color: rgb(204, 191, 173);
+    width: 20px;
+}
+.porudzbina
+{
+    border: solid rgb(119, 62, 62) 1px;
+    background-color:crimson;
+    width: 20px;
+}
+.ZauzetiSto
+{
+    background-color: darkslategray;
+}
+@media only screen and (max-width:625px) {
+    .kontStolovi,.red
+    {
+        display: flex;
+        flex-wrap: wrap;
+      
+    }
+
+   
+  }
